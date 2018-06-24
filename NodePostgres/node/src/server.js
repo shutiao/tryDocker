@@ -23,7 +23,6 @@ client.connect(function(err){
 	});
 });
 
-
 let urlencodedParser = bodyParser.urlencoded({ extend: false });
 
 app.set('view engine', 'ejs');

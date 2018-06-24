@@ -1,2 +1,2 @@
 .DS_Store
-.#dockerfile
+NodePostgres/postgres/data/
