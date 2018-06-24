@@ -5,7 +5,7 @@ docker build -t voting-app:1.0 ./node/
 
 ## Run Web Server
 ```sh
-docker container run --name voting-instance --rm -p 80:8888 -v ~/Projects/tryDocker/NodePostgres/src/:/usr/voting-app/src/  voting-app:1.0
+docker container run --name voting-instance --rm -p 80:8888 -v ~/Projects/tryDocker/NodePostgres/node/src/:/usr/voting-app/src/  voting-app:1.0
 ```
 
 ## Build Database Image
