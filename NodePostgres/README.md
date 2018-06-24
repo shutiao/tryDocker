@@ -17,9 +17,3 @@ docker build -t node-db:latest ./postgres/
 ```sh
 docker container run --name node-db -p 5433:5432 --rm -v ~/Projects/tryDocker/NodePostgres/postgres/data/:/var/lib/postgresql/data/ node-db:latest
 ```
-
-## Find IP address of database which node-app is going to connected to
-IPAM/Config/Gateway   
-```sh
-docker inspect network bridge
-```
